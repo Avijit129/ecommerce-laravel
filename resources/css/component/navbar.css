@@ -1,0 +1,237 @@
+/*layout nabvar*/
+.nav {
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr; /* Three columns */
+}
+#nav {
+    top: 0;
+    z-index: 3;
+    width: 100%;
+}
+.nav-item {
+    height: 70px;
+    background-color: #ffffff;
+    color: black;
+}
+
+.nav-item:nth-child(1),
+.nav-item:nth-child(3) {
+    height: 50px;
+}
+.nav-item:nth-child(1),
+.nav-item:nth-child(3) {
+    grid-column: span 2;
+}
+.nav-item:nth-child(2) {
+    height: 50px;
+    grid-row: 2; /* The second item spans the second row */
+    grid-column: span 4;
+    padding: 3px;
+}
+@media screen and (min-width: 768px) {
+    .nav {
+        display: flex;
+        align-items: center;
+    }
+    .nav-item {
+        height: 60px;
+    }
+    .nav-item:nth-child(1),
+    .nav-item:nth-child(3) {
+        width: 200px;
+    }
+    .nav-item:nth-child(2) {
+        flex-grow: 1;
+    }
+}
+.nav-item:nth-child(4) {
+    height: 30px;
+    font-size: small;
+    font-weight: bold;
+}
+/*end layout nabvar*/
+
+.brandImage {
+    height: 100%;
+    width: 100px;
+}
+.brand-image-element {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.cart-favorite-menu {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    height: 100%;
+    gap: 5px;
+}
+
+.cart-menu-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    height: 60%;
+    color: black !important;
+}
+
+.cart-favorite-menu .favorite,
+.cart {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.favorite .heart-icon {
+    color: rgb(0, 0, 0);
+}
+
+.cart-count {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: -8px;
+    top: -6px;
+    height: 14px;
+    width: 14px;
+    border-radius: 10px;
+    background-color: rgb(173, 58, 58);
+    color: rgb(255, 255, 255);
+    font-size: small;
+}
+.cart .cart-icon {
+    height: 50px;
+    color: rgb(0, 0, 0);
+    width: 45%;
+}
+.cart-menu-item:hover {
+    background-color: #aaaaaa3f;
+    border-radius: 50%;
+}
+
+
+.cart-favorite-menu .sign-button:hover {
+  
+}
+.nav-item button:hover {
+    background-color: #aaaaaa3f;
+}
+
+.nav-categorise-link {
+    display: flex;
+    align-items: center;
+    height: 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.nav-categorise-link:hover {
+    background-color: rgba(128, 128, 128, 0.438);
+}
+@keyframes pop-up-cart-content {
+    0% {
+        transform: translateY(100vh); /*Start from bottom of the viewport */
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+#pop-up-cart-content {
+    position: absolute;
+    width: 200px;
+    z-index: 2;
+    background-color: aliceblue;
+    border: none;
+    transform: translateY(100vh); /* Initial state, off-screen at the bottom */
+    transition: opacity 0.5s ease-out; /* Optional: smooth transition for opacity */
+    overflow: visible;
+    display: none; /* Initially hidden */
+}
+
+#pop-up-cart-content.show {
+    display: block;
+    animation: pop-up-cart-content 1s ease-in-out forwards;
+    opacity: 1; /* Fade in during animation */
+    top: 60px;
+}
+@keyframes makeDirection {
+    0% {
+        height: 20px;
+        width: 20px;
+        top: 0;
+        right: 0;
+        transform: rotate(45deg);
+    }
+    10% {
+        height: 20px;
+        width: 20px;
+    }
+    50% {
+        height: 20px;
+        width: 20px;
+        top: -10px;
+        right: 20px;
+        transform: rotate(45deg);
+    }
+    60% {
+        transform: rotate(0360deg);
+    }
+    70% {
+        transform: rotate(0360deg);
+    }
+    80% {
+        transform: rotate(0360deg);
+    }
+    90% {
+        transform: rotate(0360deg);
+    }
+    100% {
+        height: 20px;
+        width: 20px;
+        top: -10px;
+        right: 20px;
+        transform: rotate(45deg);
+    }
+}
+
+#pop-up-cart-content.show::before {
+    content: "";
+    background-color: #faa200;
+    position: absolute;
+    /* Initial properties for before element */
+    /* height: 30px;
+    width: 30px;
+    top: 0px;
+    right: 20px;
+    transform: rotate(45deg); */
+    /* Apply the animation */
+    animation: makeDirection .5s ease-in 1s forwards;
+}
+
+.pop-up-cart-content-header {
+    background-color: #faa200;
+}
+#nav-profile-container {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+#nav-profile-photo {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border-color: black;
+    border: 2px solid black;
+    overflow: hidden;
+}
+#nav-profile-photo img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}

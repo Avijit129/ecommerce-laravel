@@ -1,0 +1,191 @@
+[33mcommit e292115bb83576328ad9187f116b1ece1ab59c75[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: Avijit129 <www.avijitb@gmail.com>
+Date:   Sun Dec 14 08:34:14 2025 +0600
+
+    TMSG.swp
+    remov
+    
+    remote:       —— OpenAI API Key ————————————————————————————————————
+    remote:        locations:
+    remote:          - commit: 42249c2533672e8c871b16c8cf5cd53c4a91e07d
+    remote:            path: resources/js/components/Checkout.jsx:26
+
+[33mcommit d3ba0c922a0d9e7f06f2f13916ec75ce9ccceb44[m
+Author: Avijit129 <www.avijitb@gmail.com>
+Date:   Sun Dec 14 08:30:47 2025 +0600
+
+    remove the secret key
+
+[33mcommit 3e7db353b9b04a4498f51250ae33539c9efb1d34[m
+Author: Avijit129 <www.avijitb@gmail.com>
+Date:   Sun Dec 14 08:24:10 2025 +0600
+
+    solve the auth problem
+
+[33mcommit 1b6f79f1cccbadbe27d992105497b19f04d4e542[m
+Author: Avijit129 <www.avijitb@gmail.com>
+Date:   Sun Dec 14 07:58:22 2025 +0600
+
+    Upload the Project
+
+[33mcommit 65329683db183e179ee4eec427fd0354b2919e33[m
+Author: AvijitBiswasAvhik <avijitbiswasavhik@gmail.com>
+Date:   Sun Aug 3 07:08:04 2025 +0600
+
+    add something
+
+[33mcommit d8c4e3e161f5b83ed695962d2987e77b7e434051[m
+Author: AvijitBiswasAvhik <avijitbiswasavhik@gmail.com>
+Date:   Tue Feb 11 00:08:24 2025 +0600
+
+    add deep seck chatbot
+
+[33mcommit a5cf2d08f45ff306bf7358833d636dc340b92448[m
+Author: AvijitBiswasAvhik <avijitbiswasavhik@gmail.com>
+Date:   Wed Jan 29 21:25:18 2025 +0600
+
+    add
+
+[33mcommit b4dde8e5452574bb2f2a4ea89453ee33b6c6ca7a[m
+Author: AvijitBiswasAvhik <avijitbiswasavhik@gmail.com>
+Date:   Sat Jan 4 13:12:46 2025 +0600
+
+    add variations feature
+
+[33mcommit ffe39fd9f602614f713ee2e6d304f850aacbeaaa[m
+Author: AvijitBiswasAvhik <avijitbiswasavhik@gmail.com>
+Date:   Wed Jan 1 09:29:29 2025 +0600
+
+    add some data
+
+[33mcommit 96a058881083e1f0a7494ce35759fdb28021f41b[m
+Author: AvijitBiswasAvhik <avijitbiswasavhik@gmail.com>
+Date:   Sun Dec 29 19:13:45 2024 +0600
+
+    add vartions
+
+[33mcommit 8e603d44ae89f2d81dc865a02df6d5c219a2b3c4[m
+Author: AvijitBiswasAvhik <avijitbiswasavhik@gmail.com>
+Date:   Mon Dec 23 20:48:28 2024 +0600
+
+    add multiple feature on product variation
+
+[33mcommit 4aab5381a684468370c3eae970a68e303ee6ce6b[m
+Author: AvijitBiswasAvhik <avijitbiswasavhik@gmail.com>
+Date:   Sat Dec 21 22:07:40 2024 +0600
+
+    add some variation feature
+
+[33mcommit 49c2220f199915527f79ce0f0dacdf88fbbeb0c3[m
+Author: AvijitBiswasAvhik <avijitbiswasavhik@gmail.com>
+Date:   Tue Dec 17 23:09:31 2024 +0600
+
+    add product data to add product page
+
+[33mcommit 8deb252f7afdfca7bc18bdd7edca5af642bbe725[m
+Author: AvijitBiswasAvhik <avijitbiswasavhik@gmail.com>
+Date:   Sat Dec 14 22:54:03 2024 +0600
+
+    add user list for admin dash board
+
+[33mcommit c3d7a30d8bd5377f04df43a561df2dbbafbe17fb[m
+Author: AvijitBiswasAvhik <avijitbiswasavhik@gmail.com>
+Date:   Mon Dec 2 15:18:15 2024 +0600
+
+    add
+
+[33mcommit 5988c63c1ecbea151ed6727582d479c0bd1cb937[m
+Author: AvijitBiswasAvhik <avijitbiswasavhik@gmail.com>
+Date:   Thu Nov 14 16:28:40 2024 +0600
+
+    add zomm effect on single product
+
+[33mcommit 9704d11d4ba204afd51a487a8e77736795d64250[m
+Author: AvijitBiswasAvhik <avijitbiswasavhik@gmail.com>
+Date:   Sat Nov 2 08:17:43 2024 +0600
+
+    working on girls section
+
+[33mcommit 076266381e5c506f354fa25a84be28b06b7fe909[m
+Author: AvijitBiswasAvhik <avijitbiswasavhik@gmail.com>
+Date:   Sat Oct 5 09:05:10 2024 +0600
+
+    add paypal payment system
+
+[33mcommit 185c0f2742f180f2c2ecff5d72e4e35427a42184[m
+Author: AvijitBiswasAvhik <avijitbiswasavhik@gmail.com>
+Date:   Tue Sep 3 16:05:37 2024 +0600
+
+    make some changes
+
+[33mcommit 792d4df53495611bf760e47de569ae23cc417839[m
+Author: AvijitBiswasAvhik <avijitbiswasavhik@gmail.com>
+Date:   Wed Mar 27 07:38:28 2024 +0600
+
+    add product
+
+[33mcommit 5349aec16970f8ec4e54337afb56304ec865f4e7[m
+Author: AvijitBiswasAvhik <avijitbiswasavhik@gmail.com>
+Date:   Sun Mar 10 06:55:15 2024 +0600
+
+    add login system
+
+[33mcommit 90ae978eef10707822a805692d084eeeaff69303[m
+Author: AvijitBiswasAvhik <avijitbiswasavhik@gmail.com>
+Date:   Thu Feb 29 23:16:32 2024 +0600
+
+    add react larvel
+
+[33mcommit 3f5fa47e2b1592733cdc566af0efe53b93397599[m
+Author: AvijitBiswasAvhik <avijitbiswasavhik@gmail.com>
+Date:   Sat Jan 27 19:16:07 2024 +0600
+
+    add varitons feature to admin page
+
+[33mcommit 42249c2533672e8c871b16c8cf5cd53c4a91e07d[m
+Author: AvijitBiswasAvhik <avijitbiswasavhik@gmail.com>
+Date:   Wed Jan 17 22:51:55 2024 +0600
+
+    add product and admin
+
+[33mcommit 8482795bd33e40e89143ac343dfbe8183f16773b[m
+Author: AvijitBiswasAvhik <avijitbiswasavhik@gmail.com>
+Date:   Thu Jan 4 11:36:51 2024 +0600
+
+    add products page and side bar
+
+[33mcommit 900d0279ce446c51d1545df1c3a010d70255e526[m
+Author: AvijitBiswasAvhik <avijitbiswasavhik@gmail.com>
+Date:   Tue Dec 26 13:08:14 2023 +0600
+
+    desing feature product section
+
+[33mcommit 25715f967ff3e627520dbfa1ebc9c94b413d9500[m
+Author: AvijitBiswasAvhik <avijitbiswasavhik@gmail.com>
+Date:   Mon Dec 25 01:18:10 2023 +0600
+
+    Complete Top Slider
+
+[33mcommit 044a674f0d34596e74be2851e1a4f0ddd17cba84[m
+Author: AvijitBiswasAvhik <avijitbiswasavhik@gmail.com>
+Date:   Sun Dec 24 15:31:52 2023 +0600
+
+    triying to add slider
+
+[33mcommit a718adadc56f4477a9252df76c87c3c1a2ca3db7[m
+Author: AvijitBiswasAvhik <avijitbiswasavhik@gmail.com>
+Date:   Sun Dec 24 12:09:36 2023 +0600
+
+    Initial commit
+
+[33mcommit 93693b9af24695352eefcaaa590d3623a5a3d4d6[m
+Author: AvijitBiswasAvhik <avijitbiswasavhik@gmail.com>
+Date:   Sun Dec 24 12:08:50 2023 +0600
+
+    Initial commit
+
+[33mcommit 1f534419b72455d80a77f8655a0ff11e909ee9a8[m
+Author: AvijitBiswasAvhik <avijitbiswasavhik@gmail.com>
+Date:   Sun Dec 24 11:51:30 2023 +0600
+
+    Compolte NavBar desin
